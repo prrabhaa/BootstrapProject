@@ -1,0 +1,99 @@
+.custom-header{
+background-color: aliceblue !important;
+color:orange !important;
+padding:15px;
+}
+.nine{
+    background-color: azure !important;
+    color:orange !important;
+}
+.navitem{
+color:black;
+}
+ .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    color: var(--nav-dropdown-color);
+  }
+
+.dropdown ul a i {
+    font-size: 12px;
+  }
+
+ .dropdown ul a:hover,
+  .dropdown ul .active:hover,
+  .dropdown ul li:hover>a {
+    color: var(--nav-dropdown-hover-color);
+  }
+
+
+ .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -100%;
+    visibility: visible;
+  }
+
+.btn-get-started{
+    color:white;
+    background-color:orange;
+    font-weight:400;
+    font-size:20px;
+    text-decoration:none;
+}  
+.button{
+    color:white;
+    background-color:orange;
+    font-weight:400;
+    font-size:20px;
+    text-decoration:none;
+}  
+.services .service-item {
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+    background-color: var(--surface-color);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    height: 100%;
+  }
+  
+  .services .service-item .icon {
+    margin-bottom: 10px;
+  }
+  
+  .services .service-item .icon i {
+    color: var(--accent-color);
+    font-size: 36px;
+    transition: 0.3s;
+  }
+  
+  .services .service-item h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .services .service-item h4 a {
+    color: var(--heading-color);
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .services .service-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .services .service-item:hover h4 a {
+    color: var(--accent-color);
+  }
+
+
